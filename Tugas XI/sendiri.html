@@ -1,0 +1,383 @@
+
+        html{
+            scroll-behavior: smooth;
+        }
+        body{
+            margin: 0;
+            background-color: rgba(255, 255, 255, 0.91);
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        .hero{
+            color: white;
+            background-image: url(assets/img/GettyImages-1174744356.webp);
+            background-size: cover;
+            background-repeat: no-repeat;
+            height: 100vh;
+            padding: 0px;
+        }
+        .hero-gambar img{
+            border-radius: 6px;
+            width: 500px;
+            height: 500px;
+            object-fit: cover;
+        }
+        .hero button{
+            border-radius: 5px;
+            background-color: rgb(32, 125, 239);
+            color: white;
+            width: 100%;
+            max-width: 400px;
+            height: 70px;
+            border: none;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-size: 30px;
+            font-weight: 700;
+            transition: background-color 0.3s ease;
+        }
+        .hero button:hover{
+            color: rgb(32, 125, 239);
+            background-color: white;
+        }
+        .hero-bg-filter{
+            backdrop-filter: blur(5px);
+            height: 100vh;
+        }
+        .hero-sapa h1{
+            margin-bottom: 0px;
+            font-size: 85px;
+        }
+        .hero-sapa h2{
+            margin-top: 0px;
+            margin-bottom: 0px;
+            font-size: 45px;
+        }
+        .hero-page1{
+            gap: 50px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .hero-sapa p{
+            margin-top: 0px;
+            margin-bottom: 0px;
+        }
+
+
+
+        .sekolah-header h1{
+            margin-top: 0px;
+            display: flex;
+            justify-content: center;
+            color: black;
+            font-family: sans-serif;
+            font-size: xx-large;
+            font-weight: bolder;
+        }
+        .sekolah-header{
+            padding-top: 6px;
+            padding-bottom: 6px;
+            margin-bottom: 60px;
+            border-radius: 0 12px 12px 0;
+            background-color: rgb(32, 125, 239);
+            width: 400px;
+            height: 40px;
+        }
+        .sekolah-header h1{
+            margin-bottom: 0px;
+            color: white;
+        }
+        .sekolah-asal{
+            gap: 20px;
+            margin: 21px;
+            color: white;
+        }
+        .sekolah-asal img{
+            width: 400px;
+            border-radius: 10px 0 0 10px;
+        }
+        .sekolah-sekolah1{
+            display: flex;
+            background-image: url(assets/img/IMG-20250123-WA0036.jpg);
+            background-position: bottom left;
+            border-radius: 15px;
+            width: 100%;
+            margin-bottom: 70px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+        }
+        .sekolah-deskripsi1{
+            flex-direction: column;
+            backdrop-filter: blur(15px);
+            width: 100%;
+            border-radius: 0 10px 10px 0;
+        }
+        .sekolah-sekolah2{
+            display: flex;
+            background-image: url(assets/img/smkn3metro.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: bottom center;
+            border-radius: 15px;
+            width: 100%;
+            margin-bottom: 40px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+        }
+        .sekolah-deskripsi2{
+            flex-direction: column;
+            backdrop-filter: blur(15px);
+            width: 100%;
+            border-radius: 0 10px 10px 0;
+        }
+        .sekolah-sekolah1 h1{
+            background-color: rgb(32, 101, 239);
+            padding-bottom: 7px;
+            padding-top: 7px;
+            margin: 0;
+            width: 100%;
+            border-radius: 0 10px 0 0;
+        }
+        .sekolah-sekolah2 h1{
+            background-color: rgb(32, 101, 239);
+            padding-bottom: 7px;
+            padding-top: 7px;
+            margin: 0;
+            width: 100%;
+            border-radius: 0 10px 0 0;
+        }
+        .sekolah-deskripsi1 p{
+            font-family: sans-serif;
+        }
+        .sekolah-deskripsi2 p{
+            font-family: sans-serif;
+        }
+        .sekolah-deskripsi1 h1{
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        .sekolah-deskripsi2 h1{
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        
+
+        .info{
+            margin: 21px;
+            margin-top: 100px;
+            margin-bottom: 100px;
+        }
+        .lanjutan{
+            
+            display:flex;
+            gap: 4%;
+            justify-content: center;
+            margin-bottom: 30px;
+        }
+        .card1, .card2, .card3, .card4{
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .card1:hover, .card2:hover, .card3:hover, .card4:hover{
+            transform: translateY(-8px);
+            box-shadow: 0 8px 20px rgba(0,0,0,0.4);
+        }
+        .lanjutan-kiri{
+            background-color: #f9f9f9;
+            width: 50%;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+            border-radius: 20px;
+        }
+        .lanjutan-kiri h1{
+            text-align: center;
+            color: rgb(0, 132, 255);
+            margin-bottom: 40px;
+        }
+        .lanjutan-kiri p{
+            margin-left: 20px;
+            font-family: sans-serif;
+        }
+        .lanjutan-kanan{
+            background-color: #f9f9f9;
+            width: 50%;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+            border-radius: 20px;
+        }
+        .lanjutan-kanan h1{
+            text-align: center;
+            color: rgb(0, 132, 255);
+            margin-bottom: 40px;
+        }
+        .lanjutan-kanan p{
+            margin-left: 20px;
+            font-family: sans-serif;
+        }
+
+
+
+        footer{
+            background-color: rgb(32, 101, 239);
+            color: white;
+            padding-top: 2%;
+            padding-bottom: 2%;
+            text-align: center;
+            width: 100%;
+        }
+
+        .footer-isi{
+            max-width: 80%;
+            margin: 0 auto;
+        }
+
+        .footer-kontak{
+            margin-bottom: 1.5%;
+        }
+
+        .footer-kontak a{
+            color: white;
+            text-decoration: none;
+            margin: 0 2%;
+            font-size: 14px;
+            font-family: sans-serif;
+        }
+
+        .footer-copyright{
+            font-size: 13px;
+            color: #ccc;
+            font-family: sans-serif;
+        }
+
+        .about{
+            margin: 100px;
+            margin-top: 40px;
+            margin-bottom: 60px;
+            justify-content: center;
+            display: flex;
+            height: 100vh;
+            gap: 100px;
+            align-items: center;
+
+        }
+        .about-deskripsi-header{
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        .about-foto img{
+            width: 500px;
+            border-radius: 8px;
+        }
+        .about-deskripsi-header{
+            font-size: 50px; 
+            color: rgb(0, 132, 255);   
+        }
+        .about-deskripsi p{
+            display: block;
+        }
+        .info{
+            display: block ;
+        }
+        i{
+            font-size: xx-large;
+        }
+
+
+
+
+        @media screen and (max-width: 768px){
+            .hero-page1{
+                flex-direction: column;
+                text-align: center;
+                padding: 40px 20px;
+            }
+            
+            .hero-gambar img{
+                width: 200px;
+                height: 200px;
+            }
+            
+            .hero-sapa h1{
+                font-size: 2.5rem;
+            }
+            
+            .hero-sapa h2{
+                font-size: 1.5rem;
+            }
+
+            .hero button{
+                max-width: 250px;
+                height: 45px;
+                font-size: 16px;
+            }
+
+            .sekolah-sekolah1, .sekolah-sekolah2{
+                flex-direction: column;
+            }
+
+            .sekolah-asal img{
+                border-radius: 10px 10px 0 0;
+                width: initial;
+            }
+
+            .sekolah-deskripsi1, .sekolah-deskripsi2{
+                border-radius: 0 0 10px 10px;
+            }
+
+            .sekolah-deskripsi1 h1, .sekolah-deskripsi2 h1{
+                border-radius: 0;
+            }
+
+            .lanjutan{
+                flex-direction: column;
+                align-items: center;
+                gap: 40px;
+                margin: 40px 20px;
+            }
+            
+            .lanjutan-kiri, .lanjutan-kanan{
+                width: 100%;
+                max-width: 500px;
+            }
+
+            .about{
+                flex-direction: column;
+                text-align: center;
+                margin: 40px 20px;
+            }
+            .about-deskripsi-p{
+                text-align: initial;
+            }
+            .about-deskripsi-header{
+                font-size: 2rem;
+            }
+
+            .footer-kontak a{
+                margin: 5px;
+            }
+            .about{
+                height: auto;
+            }
+            .about img{
+                width: 300px;
+            }
+            .sekolah-header{
+                border-radius: 0;
+                width: initial;
+            }
+            i{
+                font-size: x-large;
+            }
+        }
+
+
+        @media screen and (max-width: 480px){
+
+            .hero-sapa h1{
+                font-size: 2rem;
+            }
+            .hero-sapa h2{
+                font-size: 1.2rem;
+            }
+            .about-deskripsi-header{
+                font-size: 1.5rem;
+            }
+            .lanjutan{
+                margin: 20px 15px;
+                margin-top: 40px;
+            }
+        }
+
+    
